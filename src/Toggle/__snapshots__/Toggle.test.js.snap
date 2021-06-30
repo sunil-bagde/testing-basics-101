@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleWrapper /> matches saved snapshot <ToggleWrapper />  1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+    }
+  }
+>
+  <h2
+    data-testid="toggle-text"
+  >
+    No
+  </h2>
+  <Toggle
+    onToggle={[Function]}
+    toggle={false}
+  />
+</div>
+`;

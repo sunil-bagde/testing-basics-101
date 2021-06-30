@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> matches saved snapshot 1`] = `
+<form
+  data-testid="addUserForm"
+  onSubmit={[Function]}
+>
+  <input
+    data-testid="name"
+    onChange={[Function]}
+    placeholder="Name"
+    type="text"
+    value=""
+  />
+  <p
+    className="alert"
+  />
+  <input
+    data-testid="email"
+    onChange={[Function]}
+    placeholder="Email"
+    type="text"
+    value=""
+  />
+  <p
+    className="alert"
+  />
+  <input
+    data-testid="number"
+    onChange={[Function]}
+    placeholder="Mobile"
+    type="text"
+    value=""
+  />
+  <p
+    className="alert"
+  />
+  <div>
+    <input
+      checked={true}
+      data-testid="checked"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <p
+      className="agree"
+      data-testid="promotionsP"
+    >
+      Accept terms
+    </p>
+    <p
+      className="alert"
+    />
+  </div>
+  <button
+    data-testid="submitButton"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<Form /> submits fails when validation errors  1`] = `
+Array [
+  <p
+    className="alert"
+  >
+    Name is required
+  </p>,
+  <p
+    className="alert"
+  >
+    Email is required
+  </p>,
+  <p
+    className="alert"
+  >
+    Number is required
+  </p>,
+  <p
+    className="alert"
+  />,
+]
+`;
+
+exports[`<Form /> submits the form 1`] = `"New User Added"`;
